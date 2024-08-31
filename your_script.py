@@ -11,6 +11,7 @@ def get_random_joke():
         punchline = joke['punchline']
         print(f"The Joke: {setup}")
         print(f"Punchline: {punchline}")
+        print("This is the update to monitor CI in AWS CodePipeline")
     else:
         print("Failed to retrieve data")
 
